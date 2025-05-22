@@ -1,8 +1,9 @@
 import { Category } from "@/payload-types";
 import { CategoryDropdown } from "./category-dropdown";
+import { CustomCategory } from "../types";
 
 interface Props {
-    data: any;
+    data: CustomCategory[];
 }
 
 export const Categories = ({ data }: Props) => {
